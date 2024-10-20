@@ -31,11 +31,11 @@
         </div>
         <div class="fRightMenu">
             <h1 class="fMenuTitle">Follow Us!</h1>
-            <div class="fIcons">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-whatsapp"></i>
-            </div>
+            <ul class="fIcons">
+                <li><a href="#" title=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#" title=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" title=""><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
         </div>
         <div class="fRightMenu">
             <span class="copyright">copyright@All rights reserved 2024</span>

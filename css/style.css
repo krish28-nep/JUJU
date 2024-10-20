@@ -242,17 +242,29 @@ nav {
   margin: 20px 0 20px;
   display: flex;
 }
-.size {
+
+.size label {
   padding: 5px 20px;
   border: 1px solid black;
   margin-right: 10px;
   cursor: pointer;
   font-size: 20px;
+  position: relative;
+  transition: background-color 0.3s, color 0.3s;
 }
-.size:hover {
+
+/* Hide radio buttons */
+.size input[type="radio"] {
+  display: none;
+}
+
+/* Hover and active styles */
+.size label:hover, .size input:checked + label {
   background-color: black;
   color: #fff;
 }
+
+
 .productButton {
   float: right;
   padding: 10px 20px;

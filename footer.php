@@ -28,7 +28,7 @@
                     <button type="submit" name="newsletter-form" class="fButton">Join!</button>
                 </div>
             </form>
-        </div>
+        </div> 
         <div class="fRightMenu">
             <h1 class="fMenuTitle">Follow Us!</h1>
             <ul class="fIcons">
